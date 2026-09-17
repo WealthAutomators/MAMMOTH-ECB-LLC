@@ -46,9 +46,9 @@ export const ProductCard = memo(function ProductCard({ product, className }: Pro
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 0.4 }}
-        whileHover={{ y: -4 }}
+        whileHover={{ y: -2 }}
       >
-        <div className="relative aspect-[4/5] overflow-hidden rounded-xl border border-border bg-muted shadow-sm transition-shadow duration-300 group-hover:shadow-lg">
+        <div className="relative aspect-[4/5] overflow-hidden border border-border bg-muted">
           <Link href={`/product/${product.slug}`} className="block h-full w-full">
             <Image
               src={product.images[0]}
@@ -87,11 +87,11 @@ export const ProductCard = memo(function ProductCard({ product, className }: Pro
             </Badge>
           )}
 
-          <div className="absolute right-3 top-3 flex flex-col gap-2 opacity-0 transition-all duration-300 group-hover:opacity-100">
+          <div className="absolute right-3 top-3 flex flex-col gap-2 opacity-100 transition-all duration-300 sm:opacity-0 sm:group-hover:opacity-100">
             <Button
               variant="secondary"
               size="icon"
-              className="h-9 w-9 rounded-full shadow-sm transition-transform hover:scale-110"
+              className="h-9 w-9 rounded-none"
               onClick={() => toggleWishlist(product.id)}
               aria-label={inWishlist ? "Remove from wishlist" : "Add to wishlist"}
             >
@@ -100,7 +100,7 @@ export const ProductCard = memo(function ProductCard({ product, className }: Pro
             <Button
               variant="secondary"
               size="icon"
-              className="h-9 w-9 rounded-full shadow-sm transition-transform hover:scale-110"
+              className="h-9 w-9 rounded-none"
               onClick={() => setQuickViewOpen(true)}
               aria-label="Quick view"
             >
@@ -135,7 +135,7 @@ export const ProductCard = memo(function ProductCard({ product, className }: Pro
               {product.name}
             </h3>
           </Link>
-          <p className="text-xs text-muted-foreground">{product.category}</p>
+          <p className="text-xs uppercase tracking-[0.12em] text-muted-foreground">{product.category}</p>
           <StarRating rating={product.rating} reviews={product.reviews} />
           <div className="mt-auto flex items-center gap-2">
             {hasDiscount ? (

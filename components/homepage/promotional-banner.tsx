@@ -1,28 +1,23 @@
 import Link from "next/link";
 import { promotionalBanner } from "@/data/homepage";
-import { Container } from "@/components/ui/container";
-import { Button } from "@/components/ui/button";
+import { FREE_SHIPPING_THRESHOLD } from "@/lib/constants";
 
 export function PromotionalBanner() {
   return (
-    <section className="py-12 md:py-16">
-      <Container>
-        <div className="relative overflow-hidden rounded-xl shadow-md">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary to-purple-900" />
-          <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white/5" />
-          <div className="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-white/5" />
-          <div className="absolute right-1/4 top-1/2 h-32 w-32 -translate-y-1/2 rotate-45 bg-accent/10" />
-          <div className="relative flex flex-col items-start justify-center p-8 md:p-12 lg:p-16">
-            <h2 className="text-2xl font-semibold tracking-tight text-white md:text-3xl lg:text-4xl">
-              {promotionalBanner.title}
-            </h2>
-            <p className="mt-4 max-w-xl text-white/85 leading-relaxed">{promotionalBanner.description}</p>
-            <Button asChild size="lg" variant="accent" className="mt-8">
-              <Link href={promotionalBanner.buttonLink}>{promotionalBanner.buttonText}</Link>
-            </Button>
-          </div>
+    <section className="bg-navy text-ivory">
+      <div className="mx-auto flex max-w-[1400px] flex-col items-center justify-between gap-4 px-4 py-8 text-center sm:flex-row sm:px-6 sm:text-left lg:px-8">
+        <div>
+          <p className="font-serif text-2xl tracking-tight md:text-3xl">{promotionalBanner.title}</p>
+          <p className="mt-1 text-sm text-ivory/70">{promotionalBanner.description}</p>
         </div>
-      </Container>
+        <Link
+          href={promotionalBanner.buttonLink}
+          className="border border-ivory/40 px-6 py-2.5 text-xs font-medium uppercase tracking-[0.16em] transition-colors hover:bg-ivory hover:text-navy"
+        >
+          {promotionalBanner.buttonText}
+        </Link>
+        <span className="sr-only">Threshold ${FREE_SHIPPING_THRESHOLD}</span>
+      </div>
     </section>
   );
 }

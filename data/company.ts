@@ -1,22 +1,16 @@
 export const company = {
-  name: "AAM Partners LLC",
-  tagline: "Everything You Need. Delivered with Confidence.",
+  name: "MAMMOTH ECB LLC",
+  displayName: "MAMMOTH ECB",
+  tagline: "Everyday goods. Built to go further.",
   description:
-    "AAM Partners LLC brings together quality products across multiple categories, helping families find everything they need in one trusted online marketplace.",
-  email: "aampartnersllc1@gmail.com",
+    "MAMMOTH ECB is a curated shop for useful, well-made products — home, travel, outdoor living, and everyday carry selected for quality, versatility, and lasting design.",
+  email: "mammothecbllc@gmail.com",
   address: {
-    street: "717 S Military Hwy",
-    city: "Virginia Beach",
-    state: "VA",
-    zip: "23464",
+    street: "759 Chief Justice Cushing Hwy",
+    city: "Cohasset",
+    state: "MA",
+    zip: "02025-2115",
     country: "United States",
   },
-  social: {
-    instagram: "https://instagram.com/aampartnersllc",
-    facebook: "https://facebook.com/aampartnersllc",
-    twitter: "https://twitter.com/aampartnersllc",
-    pinterest: "https://pinterest.com/aampartnersllc",
-  },
-  hours: "Mon–Fri: 9am–6pm EST",
-  copyright: `© ${new Date().getFullYear()} AAM Partners LLC. All rights reserved.`,
+  copyright: `© ${new Date().getFullYear()} MAMMOTH ECB LLC. All rights reserved.`,
 };

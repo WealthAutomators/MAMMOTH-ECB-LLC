@@ -1,0 +1,273 @@
+{
+  "generatedAt": "2026-09-16T17:39:07.199Z",
+  "libraryRoot": "/Users/solomon/Documents/Ecommerce-Product-Library",
+  "products": 43,
+  "copied": 53,
+  "files": [
+    {
+      "src": "images/outdoor/camping-lantern-001.jpg",
+      "dest": "/public/products/harbor-lantern.jpg",
+      "bytes": 153080
+    },
+    {
+      "src": "images/outdoor/picnic-basket-001.jpg",
+      "dest": "/public/products/wicker-picnic-basket.jpg",
+      "bytes": 113408
+    },
+    {
+      "src": "images/outdoor/binoculars-001.jpg",
+      "dest": "/public/products/field-binoculars.jpg",
+      "bytes": 107104
+    },
+    {
+      "src": "images/outdoor/hiking-boots-002.jpg",
+      "dest": "/public/products/trail-hiking-boots.jpg",
+      "bytes": 195606
+    },
+    {
+      "src": "images/outdoor/flashlight-001.jpg",
+      "dest": "/public/products/compact-led-flashlight.jpg",
+      "bytes": 56738
+    },
+    {
+      "src": "images/outdoor/camping-hammock-001.jpg",
+      "dest": "/public/products/cotton-hammock.jpg",
+      "bytes": 78306
+    },
+    {
+      "src": "images/outdoor/insulated-outdoor-bottle-001.jpg",
+      "dest": "/public/products/trail-thermos.jpg",
+      "bytes": 66678
+    },
+    {
+      "src": "images/outdoor/compass-001.jpg",
+      "dest": "/public/products/brass-pocket-compass.jpg",
+      "bytes": 85875
+    },
+    {
+      "src": "images/outdoor/garden-tools-001.jpg",
+      "dest": "/public/products/garden-hand-tools.jpg",
+      "bytes": 58626
+    },
+    {
+      "src": "images/travel-bags/weekender-duffel-bag-001.jpg",
+      "dest": "/public/products/canvas-weekender.jpg",
+      "bytes": 64921
+    },
+    {
+      "src": "images/travel-bags/canvas-daypack-001.jpg",
+      "dest": "/public/products/olive-canvas-daypack.jpg",
+      "bytes": 172293
+    },
+    {
+      "src": "images/travel-bags/travel-backpack-002.jpg",
+      "dest": "/public/products/waxed-travel-pack.jpg",
+      "bytes": 82339
+    },
+    {
+      "src": "images/travel-bags/messenger-bag-001.jpg",
+      "dest": "/public/products/leather-messenger.jpg",
+      "bytes": 134303
+    },
+    {
+      "src": "images/home-living/knit-throw-blanket-001.jpg",
+      "dest": "/public/products/cream-knit-throw.jpg",
+      "bytes": 108731
+    },
+    {
+      "src": "images/home-living/woven-storage-basket-001.jpg",
+      "dest": "/public/products/seagrass-catchall.jpg",
+      "bytes": 166110
+    },
+    {
+      "src": "images/home-living/ceramic-vase-001.jpg",
+      "dest": "/public/products/celadon-bud-vase.jpg",
+      "bytes": 71251
+    },
+    {
+      "src": "images/home-living/coat-hooks-001.jpg",
+      "dest": "/public/products/double-coat-hook.jpg",
+      "bytes": 411110
+    },
+    {
+      "src": "images/gifts-lifestyle/scented-candle-001.jpg",
+      "dest": "/public/products/wood-wick-candle.jpg",
+      "bytes": 72433
+    },
+    {
+      "src": "images/home-living/wooden-side-table-001.jpg",
+      "dest": "/public/products/hardwood-side-table.jpg",
+      "bytes": 77025
+    },
+    {
+      "src": "images/home-living/linen-bedding-set-001.jpg",
+      "dest": "/public/products/white-linen-bedding.jpg",
+      "bytes": 63854
+    },
+    {
+      "src": "images/home-living/glass-bud-vase-001.jpg",
+      "dest": "/public/products/glass-bud-vases.jpg",
+      "bytes": 62913
+    },
+    {
+      "src": "images/gifts-lifestyle/bath-towel-set-001.jpg",
+      "dest": "/public/products/striped-cotton-towels.jpg",
+      "bytes": 130142
+    },
+    {
+      "src": "images/kitchen-dining/ceramic-mug-001.jpg",
+      "dest": "/public/products/white-ceramic-mugs.jpg",
+      "bytes": 49132
+    },
+    {
+      "src": "images/kitchen-dining/wooden-cutting-board-001.jpg",
+      "dest": "/public/products/bamboo-cutting-board.jpg",
+      "bytes": 125460
+    },
+    {
+      "src": "images/kitchen-dining/cast-iron-skillet-001.jpg",
+      "dest": "/public/products/cast-iron-skillet.jpg",
+      "bytes": 602316
+    },
+    {
+      "src": "images/kitchen-dining/tea-kettle-001.jpg",
+      "dest": "/public/products/copper-tea-kettle.jpg",
+      "bytes": 76744
+    },
+    {
+      "src": "images/kitchen-dining/coffee-grinder-001.jpg",
+      "dest": "/public/products/hand-crank-coffee-mill.jpg",
+      "bytes": 82108
+    },
+    {
+      "src": "images/kitchen-dining/stoneware-dinner-plate-001.jpg",
+      "dest": "/public/products/celadon-fluted-plate.jpg",
+      "bytes": 100803
+    },
+    {
+      "src": "images/kitchen-dining/serving-bowl-001.jpg",
+      "dest": "/public/products/lidded-serving-tureen.jpg",
+      "bytes": 241920
+    },
+    {
+      "src": "images/gifts-lifestyle/pour-over-coffee-set-001.jpg",
+      "dest": "/public/products/pour-over-coffee-set.jpg",
+      "bytes": 112861
+    },
+    {
+      "src": "images/kitchen-dining/teapot-001.jpg",
+      "dest": "/public/products/stoneware-teapot.jpg",
+      "bytes": 63544
+    },
+    {
+      "src": "images/kitchen-dining/cutlery-set-001.jpg",
+      "dest": "/public/products/art-deco-flatware.jpg",
+      "bytes": 82641
+    },
+    {
+      "src": "images/apparel/flannel-shirt-001.jpg",
+      "dest": "/public/products/buffalo-check-flannel.jpg",
+      "bytes": 94106
+    },
+    {
+      "src": "images/apparel/knit-beanie-001.jpg",
+      "dest": "/public/products/trail-knit-beanie.jpg",
+      "bytes": 101736
+    },
+    {
+      "src": "images/accessories/gloves-001.jpg",
+      "dest": "/public/products/suede-work-gloves.jpg",
+      "bytes": 90694
+    },
+    {
+      "src": "images/accessories/leather-wallet-001.jpg",
+      "dest": "/public/products/leather-bifold-wallet.jpg",
+      "bytes": 70577
+    },
+    {
+      "src": "images/accessories/leather-belt-001.jpg",
+      "dest": "/public/products/brass-buckle-belt.jpg",
+      "bytes": 77236
+    },
+    {
+      "src": "images/accessories/felt-hat-001.jpg",
+      "dest": "/public/products/olive-felt-fedora.jpg",
+      "bytes": 126268
+    },
+    {
+      "src": "images/accessories/wool-scarf-001.jpg",
+      "dest": "/public/products/cable-knit-scarf.jpg",
+      "bytes": 100659
+    },
+    {
+      "src": "images/accessories/wristwatch-001.jpg",
+      "dest": "/public/products/field-watch.jpg",
+      "bytes": 97351
+    },
+    {
+      "src": "images/accessories/sunglasses-002.jpg",
+      "dest": "/public/products/clear-frame-sunglasses.jpg",
+      "bytes": 47871
+    },
+    {
+      "src": "images/gifts-lifestyle/chess-set-001.jpg",
+      "dest": "/public/products/staunton-chess-set.jpg",
+      "bytes": 90669
+    },
+    {
+      "src": "images/gifts-lifestyle/grooming-kit-001.jpg",
+      "dest": "/public/products/classic-shave-set.jpg",
+      "bytes": 56882
+    },
+    {
+      "src": "images/outdoor/binoculars-001.jpg",
+      "dest": "/public/categories/outdoor.jpg",
+      "bytes": 107104
+    },
+    {
+      "src": "images/home-living/knit-throw-blanket-001.jpg",
+      "dest": "/public/categories/home.jpg",
+      "bytes": 108731
+    },
+    {
+      "src": "images/kitchen-dining/tea-kettle-001.jpg",
+      "dest": "/public/categories/kitchen-dining.jpg",
+      "bytes": 76744
+    },
+    {
+      "src": "images/travel-bags/weekender-duffel-bag-001.jpg",
+      "dest": "/public/categories/travel.jpg",
+      "bytes": 64921
+    },
+    {
+      "src": "images/apparel/flannel-shirt-001.jpg",
+      "dest": "/public/categories/apparel.jpg",
+      "bytes": 94106
+    },
+    {
+      "src": "images/accessories/felt-hat-001.jpg",
+      "dest": "/public/categories/accessories.jpg",
+      "bytes": 126268
+    },
+    {
+      "src": "images/outdoor/picnic-blanket-002.jpg",
+      "dest": "/public/banners/editorial-weekend.jpg",
+      "bytes": 186188
+    },
+    {
+      "src": "images/outdoor/camping-lantern-002.jpg",
+      "dest": "/public/banners/editorial-pack.jpg",
+      "bytes": 160441
+    },
+    {
+      "src": "images/travel-bags/travel-backpack-002.jpg",
+      "dest": "/public/banners/lifestyle-outdoor.jpg",
+      "bytes": 82339
+    },
+    {
+      "src": "images/home-living/knit-throw-blanket-001.jpg",
+      "dest": "/public/banners/about.jpg",
+      "bytes": 108731
+    }
+  ]
+}

@@ -1,19 +1,22 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fafafa;
-  --foreground: #1f2937;
-  --primary: #7c3aed;
-  --primary-foreground: #ffffff;
-  --accent: #f59e0b;
-  --accent-foreground: #ffffff;
-  --pink: #ec4899;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
-  --border: #e5e7eb;
-  --ring: #7c3aed;
-  --card: #ffffff;
-  --radius: 12px;
+  --background: #f4f1ea;
+  --foreground: #1c1b19;
+  --primary: #2f4a3a;
+  --primary-foreground: #faf8f4;
+  --accent: #a65a3a;
+  --accent-foreground: #faf8f4;
+  --navy: #2c3544;
+  --muted: #e8e2d8;
+  --muted-foreground: #5c635e;
+  --border: #d4cfc5;
+  --ring: #2f4a3a;
+  --card: #faf8f4;
+  --ivory: #faf8f4;
+  --charcoal: #1c1b19;
+  --stone: #8a8580;
+  --radius: 2px;
 }
 
 @theme inline {
@@ -23,21 +26,32 @@
   --color-primary-foreground: var(--primary-foreground);
   --color-accent: var(--accent);
   --color-accent-foreground: var(--accent-foreground);
-  --color-pink: var(--pink);
+  --color-navy: var(--navy);
   --color-muted: var(--muted);
   --color-muted-foreground: var(--muted-foreground);
   --color-border: var(--border);
   --color-ring: var(--ring);
   --color-card: var(--card);
-  --font-sans: var(--font-inter);
-  --radius-lg: 12px;
-  --radius-xl: 12px;
+  --color-ivory: var(--ivory);
+  --color-charcoal: var(--charcoal);
+  --color-stone: var(--stone);
+  --font-sans: var(--font-sans);
+  --font-serif: var(--font-serif);
+  --radius-lg: 2px;
+  --radius-xl: 4px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
 }
 
 @keyframes accordion-down {

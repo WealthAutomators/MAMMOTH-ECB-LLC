@@ -41,7 +41,7 @@ export function ShopContent() {
   const [selectedCategories, setSelectedCategories] = useState<string[]>(
     initialCategory ? [initialCategory] : []
   );
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 150]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 300]);
   const [inStockOnly, setInStockOnly] = useState(false);
   const [saleOnly, setSaleOnly] = useState(initialSale);
   const [sort, setSort] = useState("featured");
@@ -166,7 +166,7 @@ export function ShopContent() {
                 onClick={() => {
                   setSearch("");
                   setSelectedCategories([]);
-                  setPriceRange([0, 150]);
+                  setPriceRange([0, 300]);
                   setInStockOnly(false);
                   setSaleOnly(false);
                   setPage(1);

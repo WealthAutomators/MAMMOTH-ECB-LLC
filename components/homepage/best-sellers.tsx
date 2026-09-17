@@ -4,9 +4,9 @@ import { useState } from "react";
 import { bestSellerTabs, homepageBestsellerSlugs } from "@/data/homepage";
 import { getBestsellerProducts, getProductsBySlugs } from "@/data/products";
 import { Container } from "@/components/ui/container";
-import { SectionHeading } from "@/components/ui/section-heading";
 import { ProductCard } from "@/components/product/product-card";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 export function BestSellers() {
   const [activeTab, setActiveTab] = useState("all");
@@ -19,9 +19,17 @@ export function BestSellers() {
       : bestsellers.filter((p) => p.categorySlug === activeTab).slice(0, 4);
 
   return (
-    <section className="py-12 md:py-16">
+    <section className="py-16 md:py-24">
       <Container>
-        <SectionHeading title="Best Sellers" viewMoreLink="/best-sellers" />
+        <div className="mb-8 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="text-[11px] font-medium uppercase tracking-[0.22em] text-muted-foreground">Proven</p>
+            <h2 className="mt-2 font-serif text-3xl tracking-tight md:text-4xl">Best sellers</h2>
+          </div>
+          <Link href="/best-sellers" className="text-sm uppercase tracking-[0.14em] text-primary hover:underline">
+            View all
+          </Link>
+        </div>
 
         <div className="mb-8 flex flex-wrap gap-2">
           {bestSellerTabs.map((tab) => (
@@ -29,9 +37,9 @@ export function BestSellers() {
               key={tab.slug}
               onClick={() => setActiveTab(tab.slug)}
               className={cn(
-                "rounded-full px-5 py-2 text-sm font-medium transition-colors",
+                "px-4 py-2 text-xs font-medium uppercase tracking-[0.14em] transition-colors",
                 activeTab === tab.slug
-                  ? "bg-primary text-white"
+                  ? "bg-primary text-ivory"
                   : "bg-muted text-muted-foreground hover:text-foreground"
               )}
             >

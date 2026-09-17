@@ -8,8 +8,16 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function WishlistContent() {
-  const { wishlist } = useWishlist();
+  const { wishlist, isHydrated } = useWishlist();
   const products = wishlist.map((id) => getProductById(id)).filter(Boolean);
+
+  if (!isHydrated) {
+    return (
+      <Container className="py-16">
+        <h1 className="text-3xl font-semibold">Wishlist</h1>
+      </Container>
+    );
+  }
 
   if (products.length === 0) {
     return (
